@@ -1,0 +1,63 @@
+/* components/Tabs.module.css */
+
+.tabsContainer {
+    width: 100%;
+    margin-top: 50px;
+   
+  }
+  
+  .tabs {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eaeaea;
+  }
+  
+  .tab {
+    margin: 10px 20px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+    position: relative;
+  }
+  
+  .tab:hover {
+    color: #82bc93;
+  }
+  
+  .active {
+    color: #82bc93; /* Active tab text color */
+  }
+  
+  .underline {
+    position: absolute;
+    bottom: 41px;
+    height: 4px;
+    background-color: #82bc93;
+    border-radius: 4px;
+    transition: all 0.3s ease; /* Ensure smooth animation */
+    width: 0; /* Initial width to be updated dynamically */
+    left: 0; /* Initial position */
+  }
+  
+  .tabContent {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .tabSpecifiedContent {
+    background-color: #fafafa;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .tabContent {
+      font-size: 1rem;
+    }
+  }
+  

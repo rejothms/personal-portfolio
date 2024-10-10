@@ -1,0 +1,13 @@
+.bannerContainer {
+    padding: 40px;
+    background-color: #fafafa;
+   
+}
+
+.chatButtonContainer {
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #83ce99;
+}

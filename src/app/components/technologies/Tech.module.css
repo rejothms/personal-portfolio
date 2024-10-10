@@ -1,0 +1,16 @@
+.techContainer {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.sectionTitle:before {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 45px;
+    background-color: #83ce99;
+    margin-right: 22px;
+    top: 0;
+}
+
